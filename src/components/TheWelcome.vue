@@ -21,6 +21,8 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     provides you with all information you need to get started.
   </WelcomeItem>
 
+  <v-btn elevation="2">test</v-btn>
+
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
