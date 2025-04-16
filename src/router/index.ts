@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'calendar',
       component: HomeView,
     },
+    {
+      path: '/info',
+      name: 'info',
+      component: () => import('../views/InfoView.vue'),
+    },
   ],
 })
 
