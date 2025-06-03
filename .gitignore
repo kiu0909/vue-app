@@ -28,3 +28,8 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# unplugin-vue-components 
+components.d.ts  
+# vue-router 
+typed-router.d.ts 
