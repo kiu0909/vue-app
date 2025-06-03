@@ -4,10 +4,10 @@ import WipBtn from '@/components/WipBtn.vue'
 </script>
 
 <template>
-  <v-app>
-    <NavigationDrawer class="naviiiiiiiiiiiiiiii" />
-    <!-- todo 変な場所に表示されるのなおす -->
+  <NavigationDrawer class="naviiiiiiiiiiiiiiii" />
+  <!-- todo 変な場所に表示されるのなおす -->
+  <v-main>
     <WipBtn title="yes"></WipBtn>
     <WipBtn title="no"></WipBtn>
-  </v-app>
+  </v-main>
 </template>
